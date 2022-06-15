@@ -1,0 +1,103 @@
+/* Style the navigation menu */
+
+.navbar{
+    width:100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.navbar a{
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 14%;
+    text-align: center;
+}
+
+.banner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+h1{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#abt{
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+
+p{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.grid-container{
+    display: grid;
+    column-gap: 15px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    background-color: gray;
+    margin: 25px;
+    padding: 15px;
+    align-content: space-evenly;
+    max-height: fit-content;
+    width:100%;
+    margin-left: 0%;
+}
+
+.grid-container a{
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    width: 14%;
+}
+
+/* forms */
+
+.signin, .register {
+    width: 85%;
+   }   
+   
+   .signin input {
+    width:100%;
+    padding: 10px;
+    margin:5px;
+    border:2px solid black;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.22);
+    width: 70%;
+   }
+   
+   .register input {
+    display:block;
+    padding: 10px;
+    margin:5px;
+    border:2px solid black;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.22);
+    width:70%;
+   }
+
+   .search{
+    float:right;
+     padding: 8px;
+     margin:5px;
+     border:2px solid black;
+     box-shadow: 0 10px 10px rgba(0,0,0,0.22);
+     width: 40%;
+    }
+
+    .search input{
+        width:80%;
+        padding:3px;
+     }
