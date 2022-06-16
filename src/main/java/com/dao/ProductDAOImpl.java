@@ -39,9 +39,11 @@ public class ProductDAOImpl implements ProductDAO {
 		return row;
 	}
 
-	public Product getProduct(int pid) {
+	public List<Product> getProduct(int pid) {
 		// TODO Auto-generated method stub
-		return null;
+		String query = "select * from product where pid = ?";
+		List<Product> list = this.jdbcTemplate.query(query, new RowMapperImpl(),pid);
+		return list;
 	}
 
 	public List<Product> getAllProducts() {
